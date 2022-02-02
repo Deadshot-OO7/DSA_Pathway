@@ -10,10 +10,8 @@ Missing number in the said array (10-20): 20
 
 from array import *
 arr = array('i', [10, 11, 12, 13, 14, 16, 17, 18, 19, 20])
-j = 0
+# arr = array('i', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19])
+
 for i in range(10, 21):
-    if i == arr[j]:
-        j += 1
-        continue
-    else:
+    if arr.count(i) == 0:
         print(i)
