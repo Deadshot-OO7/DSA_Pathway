@@ -1,4 +1,4 @@
-package DSA_Revision;
+package Two_D_Arrays;
 
 import java.util.Scanner;
 
@@ -43,6 +43,8 @@ public class _39_Spiral_Order_Matrix {
             col_start++;
         }
 
+        int n ;
+        int m ;
 
     }
 }
